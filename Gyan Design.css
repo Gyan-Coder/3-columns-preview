@@ -1,0 +1,73 @@
+body{ 
+    margin: 0;
+    font-family:"Lexend Deca", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+
+
+.cards-container {
+    color: white;
+    padding: 1.5rem;
+    display: flex;
+    max-width: 910px;
+    margin: auto;
+
+}
+
+.Card{ 
+    padding: 3rem;
+   
+}
+
+
+.Card h1{
+ text-transform: uppercase;
+ font-family: "Big Shoulders Display", sans-serif;
+}
+
+.Card p{
+    opacity: 0.6;
+    font-size: 18px ;
+    line-height: 30px;}
+
+
+
+
+.Card a{
+    border: 2px solid white;
+    padding: 1rem;
+    border-radius: 10rem;
+    margin-top: 3rem;
+
+    
+}
+
+.orange-card{
+    background-color: #E28525;
+    border-radius: 10px 0px 0px 10px;
+    width: 100%;
+}
+
+.Green-card{
+    background-color:#106972 ;
+    width: 100%;
+}
+
+
+.Dark-Green-card {
+    background-color:#06413F ;
+    border-radius: 0px 10px 10px 0px;
+    width: 100%;
+
+
+}
